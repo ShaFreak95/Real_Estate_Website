@@ -14,6 +14,11 @@ body {
     display: none;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .mobile-home-logo {
     display: none
 }
@@ -24,7 +29,7 @@ body {
 }
 
 .item {
-    background-color: turquoise;
+    /* background-color: turquoise; */
     border: 1px solid black;
 }
 
@@ -58,10 +63,116 @@ nav.right-nav a:hover {
 
 /* Main Section */
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.main .item .img-content-1 {
+    background-image: url("../img/house.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+.main .item .img-content-2 {
+    background-image: url("../img/house-1.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .item .img-content-3 {
+    background-image: url("../img/house-2.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .item .img-content-4 {
+    background-image: url("../img/house-3.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .item .img-content-5 {
+    background-image: url("../img/house-4.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .item .img-content-6 {
+    background-image: url("../img/house-5.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .item .img-content-7 {
+    background-image: url("../img/house-6.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .item .img-content-8 {
+    background-image: url("../img/house-7.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .item .img-content-9 {
+    background-image: url("../img/house-8.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .item .img-content-10 {
+    background-image: url("../img/house-9.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .item .img-content-11 {
+    background-image: url("../img/house-10.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .item .img-content-12 {
+    background-image: url("../img/house-11.jpeg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* -----------------------Responsive--------------------------- */
 
 @media (max-width: 520px) {
     /* .responsive-mobile-text > div:last-child a{
