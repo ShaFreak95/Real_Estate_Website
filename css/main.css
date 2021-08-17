@@ -14,9 +14,19 @@ body {
     display: none;
 }
 
+.description h3 {
+    margin: 0;
+}
+
+.description .address p{
+    margin: 0;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 32px;
+    justify-items: center;
 }
 
 .mobile-home-logo {
@@ -31,6 +41,7 @@ body {
 .item {
     /* background-color: turquoise; */
     border: 1px solid black;
+    width: 90%;
 }
 
 .menu-bar-spacing {
@@ -50,6 +61,7 @@ nav.left-nav > div:last-child a {
 
 nav.left-nav > div:last-child a:hover {
     color: white;
+    text-decoration: underline;
 }
 
 nav.right-nav a {
@@ -59,12 +71,24 @@ nav.right-nav a {
 
 nav.right-nav a:hover {
     color: white;
+    text-decoration: underline;
 }
 
 /* Main Section */
 
+.description {
+    background-color: white;
+    padding: 24px 12px 12px;
+}
+
+.main {
+    background-color: #cdcfcd;
+    padding: 30px 0 30px;
+}
+
 .main .item .img-content-1 {
     background-image: url("../img/house.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -74,6 +98,7 @@ nav.right-nav a:hover {
 
 .main .item .img-content-2 {
     background-image: url("../img/house-1.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -83,6 +108,7 @@ nav.right-nav a:hover {
 
 .main .item .img-content-3 {
     background-image: url("../img/house-2.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -92,6 +118,7 @@ nav.right-nav a:hover {
 
 .main .item .img-content-4 {
     background-image: url("../img/house-3.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -101,6 +128,7 @@ nav.right-nav a:hover {
 
 .main .item .img-content-5 {
     background-image: url("../img/house-4.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -110,6 +138,7 @@ nav.right-nav a:hover {
 
 .main .item .img-content-6 {
     background-image: url("../img/house-5.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -119,6 +148,7 @@ nav.right-nav a:hover {
 
 .main .item .img-content-7 {
     background-image: url("../img/house-6.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -128,6 +158,7 @@ nav.right-nav a:hover {
 
 .main .item .img-content-8 {
     background-image: url("../img/house-7.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -137,6 +168,7 @@ nav.right-nav a:hover {
 
 .main .item .img-content-9 {
     background-image: url("../img/house-8.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -146,6 +178,7 @@ nav.right-nav a:hover {
 
 .main .item .img-content-10 {
     background-image: url("../img/house-9.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -155,6 +188,7 @@ nav.right-nav a:hover {
 
 .main .item .img-content-11 {
     background-image: url("../img/house-10.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -164,11 +198,26 @@ nav.right-nav a:hover {
 
 .main .item .img-content-12 {
     background-image: url("../img/house-11.jpeg");
+    display: block;
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.main .item .description .unit-features {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.main .item .description h3, .main .item .description .unit-features, .main .item .description .address{
+    margin-bottom: 12px;
+}
+
+.main .item .description .unit-features p{
+    margin: 0;
 }
 
 
@@ -210,7 +259,7 @@ nav.right-nav a:hover {
 
     /* Header */
     .menu-bar_bg-color {
-        background-color: #b05af7;
+        background-color: #89f389;
         font-size: 1rem;
     }
 
