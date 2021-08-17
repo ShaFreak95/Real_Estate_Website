@@ -3,6 +3,15 @@ body {
 }
 
 /* Styling */
+
+.bar-icon {
+    display: none;
+}
+
+.mobile-home-logo {
+    display: none
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -42,9 +51,37 @@ nav.right-nav a:hover {
     color: white;
 }
 
-@media (min-width: 500px) and (max-width: 502px) {
-    .responsive-mobile-text > div:last-child a{
+@media (max-width: 520px) {
+    /* .responsive-mobile-text > div:last-child a{
         font-size: 1rem;
     }
-    
+     */
+
+     .bar-icon {
+         display: block;
+     }
+
+     .mobile-home-logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+     }
+
+     .container .left-nav {
+        display: none
+     }
+
+     .container .right-nav {
+        display: none
+     }
+
+     .menu-bar_bg-color {
+        background-color: #b05af7;
+        font-size: 1rem;
+    }
+
+    .menu-bar-spacing {
+        padding: 0 4px;
+    }
+
 }
